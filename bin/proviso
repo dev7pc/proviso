@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php //declare(strict_types = 1);
+
+use SevenPercent\Proviso;
+use Symfony\Component\Console;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$consoleApp = new Console\Application('Proviso', '3.0.0');
+$consoleApp->addCommands([
+	new Proviso\CreateCommand(),
+	new Proviso\StartCommand(),
+	new Proviso\ShutdownCommand(),
+]);
+exit($consoleApp->run());

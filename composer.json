@@ -1,0 +1,33 @@
+{
+	"authors": [
+		{
+			"name": "SevenPercent Developer",
+			"email": "dev7pc@sevenpercent.solutions"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"SevenPercent\\Proviso\\": "src/"
+		}
+	},
+	"description": "A tool for provisioning project-specific virtual machines",
+	"license": "Unlicense",
+	"name": "sevenpercent/proviso",
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:dev7pc/phar-compiler.git"
+		}
+	],
+	"require": {
+		"php": ">=5.6.0",
+		"symfony/console": "^3.1.2"
+	},
+	"require-dev": {
+		"sevenpercent/phar-compiler": "^3.0"
+	},
+	"support": {
+		"email": "dev7pc@sevenpercent.solutions"
+	},
+	"type": "library"
+}
