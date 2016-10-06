@@ -141,7 +141,7 @@ class CreateCommand extends Console\Command\Command {
 			'cableconnected2' => 'on',
 			'nictrace2' => 'off',
 			'nicpromisc2' => 'allow-all',
-			'hostonlyadapter2' => 'vboxnet2',
+			'hostonlyadapter2' => 'vboxnet0',
 			'macaddress2' => 'auto',
 			'nic3' => 'none',
 			'nic4' => 'none',
